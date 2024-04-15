@@ -1,0 +1,38 @@
+/* css디자인 */
+/* #top   {background-color: aqua;}
+#top  main {background-color: yellow;}
+#top  main h1 {background-color: lime;}
+#top  main p {} */
+.title {background-color: greenyellow;}
+.title h1 {color: blue;}
+.title .txt_wrap {background-color: bisque;}
+.title .txt_wrap .txt_1 {background-color: orange;}
+.title .txt_wrap .txt_1 .sub_title {color: blue;}
+.title .txt_wrap .txt_1 .name {color: red;}
+/* 선택자연습-2 */
+#weather {background-color: beige;}
+#weather h1 {color: blueviolet;}
+#weather .area {color: red;}
+#weather .tmperature {color: aqua;}
+#weather p {color: blue;}
+#weather .sub_title {color: blueviolet;}    
+#weather .humidity {color: blueviolet;}        
+#weather .dust {color: blueviolet;} 
+#weather .result {color: brown;}   
+/* 선택자연습-3 */
+#news {background-color: yellowgreen;}
+#news > a {background-color: aqua;}
+#news .box {background-color: gray;}
+#news .box a {background-color: red;}
+#news .box a h2 {background-color: blueviolet;}
+#news .box a p {background-color: yellow;}
+#news > p {background-color: blue;}
+/* 선택자연습-4 */
+#papago {background-color: pink;}
+#papago nav {background-color: blueviolet;}
+#papago nav a {color: yellow;}
+#papago main {background-color: blue;}
+#papago main h1 {background-color: green;}
+#papago main h1 a {color: orange;}
+#papago main > a {color: red;}
+#papago > a {background-color: chocolate;}  
