@@ -1,0 +1,60 @@
+/* ver0 */
+h1 {background-color: gray;}
+.test_box {background-color: white;}
+.test_box h1 {background-color: blue;}
+.test_box h2 {background-color: green;}
+.test_box h3 {background-color: yellow;}
+.test_box h4 {background-color: red;}
+.test_box #title1 {color: violet;}
+.test_box #title2 {color: violet;}
+.test_box > p {background-color: gray;}
+.test_box blockquote {background-color: chartreuse;}
+.test_box p span {background-color: cornflowerblue;}
+.test_box p q {background-color: cornflowerblue;}
+.test_box p code {background-color: cornflowerblue;}
+.test_box p sup {background-color: blueviolet;}
+.test_box p sub {background-color: red;}
+.test_box .test1 {background-color: cadetblue;}
+.test_box .test2 {background-color: cadetblue;}
+.test_box .test3 {background-color: cadetblue;}
+.test_box .test {background-color: cadetblue;}
+.test_box .test4 {background-color: cadetblue;}
+.test_box #wrap p {background-color: coral;}
+/* ver1 */
+header {background-color: aqua;}
+header h1 {background-color: bisque;}
+header form {background-color: cornflowerblue;}
+header input  {background-color: crimson;}
+header a {background-color: darkblue;}
+/* ver2 */
+.box {background-color: aqua;}
+.box a {background-color: burlywood;}
+.box .contents {background-color: crimson;}
+.box .contents p {background-color: blue;}
+.box .img {background-color: azure;}
+/* ver3 */
+main {background-color: bisque;}
+main aside {background-color: pink;}
+main aside h2 {background-color: palevioletred;}
+main aside ul {background-color: violet;}
+main aside ul li {background-color: paleturquoise;}
+main aside ul li > a {color: black;}
+main aside ul .last a {color: red;}
+main section .top {background-color: blueviolet;}
+main section .top h1 {background-color: red;}
+main section .top p {background-color: blue;}
+main section article {background-color: yellow;}
+main section article p {background-color: green;}
+/* ver4 */
+#t {background-color: darkgreen;}
+#t thead {background-color: red;}
+#t thead tr {background-color: blue;}
+#t thead tr th {background-color: purple;}
+#t tbody {background-color: palegreen;}
+#t tbody tr {background-color: yellowgreen;}
+#t tbody tr td {background-color: paleturquoise;}
+#t tbody tr td span {background-color: palegoldenrod;}
+#t tfoot {background-color: palevioletred;}
+#t tfoot tr {background-color: yellow;}
+#t tfoot tr th {background-color: darkgreen;}
+#t tfoot tr th em {background-color: pink;}
