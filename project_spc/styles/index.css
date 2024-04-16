@@ -1,0 +1,25 @@
+main {
+    font-family: "noto sans kr", sans-serif;
+    text-align: center;
+}
+main h1 {
+    padding-bottom: 14px;
+    padding-top: 28px;
+    font-size: 3.125rem; 
+    font-weight: 700;
+}
+main > p {padding-bottom:40px; font-weight: 300;}
+/* p vision 자간 공통 */
+main > p, 
+main .contents_bg > p,
+main .contents_bg .vision h2 {letter-spacing: -0.2px;}
+main .contents_bg {padding-top:40px; background-color: #F5F5F5;}
+main .contents_bg > p {padding-bottom:30px; line-height: 30px;}
+main .contents_bg .vision {}
+main .contents_bg .vision h2 {
+    color: #36B4E5; 
+    font-size: 1.875rem;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+main .contents_bg .vision p {line-height:45px; font-size: 2.188rem;}  
