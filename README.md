@@ -42,10 +42,10 @@
 * `#wrap #box .a {}` > 3+3+2 = 8
 * `#wrap .a .b p {}` > 3+2+2+1 = 8
 2. 다음 중 우선 순위가 가장 높고 낮은 선택지는?
-* `#box a b p {}` > 3+1+1 =6
-* `#box #a .b {}` > 3+3+2 =8
-* `#box #wrap .a .b {}`> 3+3+2+2 =10
-* `#wrap #box a {}` > 3+3+1 =7
+* `#box a b p {}` 
+* `#box #a .b {}` 
+* `#box #wrap .a .b {}`> 
+* `#wrap #box a {}` 
 ## color 
 * 영문명 직접 입력 ex) 테스트용으로 주로 밝은색을 사용한다.
 * aqua, lime, yellow, coral, ...
@@ -53,3 +53,21 @@
 * RGB 웹 색상 기준으로 색상을 섞을 수록 밝아진다.
 * #Hex #000000 == #000, #FF00CC => #F0C 
 * rgba(red, green, blue,alpha) *최대색상 255
+## box css
+### display
+* `block, inline, inline-block`
+* 특정 태그가 화면에 어떻게 표시될지 지정하는 속성
+* `block` : 새로운 행, 크기, 여백 인식
+* `inline` : 내용만큼 크기 인식(그 외 크기인식불가능)
+* `inline-block` : 내용만큼 크기인식(크기 추가설정가능), 옆으로 정렬
+### box-sizing
+* `box-sizing:border-box`
+* 요소의 너비와 높이를 계산할 때 테두리, 여백(padding)까지 포함해서 계산하는 속성
+* 속성 미적용 시 : w100+h100+padding-top20 = 100x120
+* 속성 적용 시 : w100+h100+padding-top20 = 100x100
+### width, height
+* 요소의 너비와 높이
+* 절대값px, 상대값%, 화면 상대값 vw, vh
+* 상대값 처리는 0~100% 사이 값만 사용한다.
+### border-radius
+* 사각형을 원으로 만들어준다  50%로 사용 
