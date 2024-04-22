@@ -1,0 +1,65 @@
+main {
+    font-family: "Noto Sans KR",sans-serif;
+    
+}
+main h1 {
+    color: #888888;
+    font-size: 1.5rem;
+    letter-spacing: -0.5px;
+    line-height: 36px;
+    margin: 60px 59px 63px 79px;
+    font-weight: 400;
+    text-align: center;
+    width: 760px
+}
+main h2 {
+    text-align: center;
+    width: 746px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 9px; margin-left: 80px;
+}
+main .down {
+    /* background-color: aqua; */
+    width: 746px; 
+    border: 1px solid black;
+    letter-spacing: -0.2px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    margin: 0px 57px 60px 80px;
+}
+main .down thead {}
+main .down thead tr {}
+main .down thead tr th {
+    border: 1px solid #AAAAAA; border-right: 0;
+    background-color: #00155E;
+    color: #fff;
+    text-align: center;
+    width: 240px;
+    padding: 14px 0 19px;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+main .down tbody {}
+main .down tbody tr {}
+main .down tbody tr:nth-child(1) td:nth-child(4) {
+    line-height: 1.5;
+}
+main .down tbody tr:nth-child(1) td:nth-child(2) {width: 105px;}
+main .down tbody tr:nth-child(1) td:nth-child(3) {width: 207px;}
+/* 해당돔 색상 */
+main .down tbody tr:nth-child(1) td:nth-child(3),
+main .down tbody tr:nth-child(3) td:nth-child(3),
+main .down tbody tr:nth-child(5) td:nth-child(3),
+main .down tbody tr:nth-child(2) td:nth-child(2),
+main .down tbody tr:nth-child(4) td:nth-child(2),
+main .down tbody tr:nth-child(6) td:nth-child(2),
+main .down tbody tr td {
+    border: 1px solid #AAAAAA; border-right: 0;
+    font-weight: 700;
+    padding: 11px 0 19px;
+    font-size: 1.25rem;
+    text-align: center;
+}
+main .down tbody tr .num {color: #888888;}
