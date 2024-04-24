@@ -82,3 +82,27 @@
 * 태그[속성^=값] 속성값이 이것으로 시작할 때
 * 태그[속성$=값] 속성값이 이것으로 끝날 때
 * 태그[속성*=값] 속성값이 이것을 포함할 때 (최소 2글자 이상)
+## form요소와 속성
+### `<form action="#" method=""></form>
+* action :
+* method :
+### `<input type="" name"">`
+* type : 
+* name : 서버(action)전송 시 입력한 데이터 구분 명칭
+* readonly : 입력불가능 읽기만 가능 
+* disabled : 비활성화
+* autofocus : 커서 깜빡거림, 딱 하나만 사용가능
+* autocomplete="on" : 자동완성 on
+* autocomplete="off" : 자동완성 off
+* value : 미리 제시된 텍스트(활성화 시 제거안됨) 
+* placeholder : 미리 제시된 텍스트(활성화 시 제거됨)
+* value 와 placeholder의 차이점 :
+* maxlength : 최대 글자 수 
+### `<textarea></textara>`
+* rows,cols :
+* 사용용도 및 주의사항
+### input의 입력양식과 선택양식
+* text, url 등의 사용자가 직접입력가능한 입력양식
+* radio 등의 사용자의 입력이 아닌 선택으로 들어가는 선택양식
+* `name` : 입력양식(데이터 구분용), 선택양식(데이터구분 (개별데이터X, 그룹데이터구분용))
+* `value : 입력양식(초기값), 선택양식(개별데이터구분용)
