@@ -1,0 +1,45 @@
+body {
+    background-color: #F5F5F5;
+
+    
+}
+main {
+    width: 1024px;
+    font-family: "Noto Sans KR", sans-serif;
+    text-align: center;
+}
+main h1 {
+    background-color: aqua;
+    margin: 41px auto;
+}
+main h1 a {}
+main h1 a img {}
+main .law {
+    background-color: #fff;
+    overflow-y: auto;
+    width: 600px; height: 200px;
+    float:left;
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 0.75rem;
+    
+}
+main .law h2 {padding: 10px 0 50px;}
+main .law h3 {padding-bottom: 10px;}
+main .law p { padding-bottom: 20px;}
+main #join_frm {width: 600px;}
+main #join_frm .user_info {}
+main #join_frm .user_info dl {}
+main #join_frm .user_info dl dt {}
+main #join_frm .user_info dl dt span {color: red;}
+main #join_frm .user_info dl dd {}
+main #join_frm .user_info dl dd #button_check {}
+main #join_frm .user_info dl dd #duplication {}
+main #join_frm .user_info dl dd [name*=new]{background-color: aqua;}
+main #join_frm .user_info dl dd #get_number {}
+main #join_frm .user_info dl dd #address_searchr {}
+main #join_frm .user_info dl dd .stay {}
+main #join_frm .user_info dl dd .day {}
+main #join_frm .user_info dl dd .btn {}
+main #join_frm .user_info dl dd .btn #sign_up {}
+
