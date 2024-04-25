@@ -1,0 +1,212 @@
+/* body {
+    background-color: #F5F5F5;
+
+    
+}
+main {
+    width: 1024px;
+    font-family: "Noto Sans KR", sans-serif;
+    text-align: center;
+}
+main h1 {
+    margin: 41px auto;
+}
+main h1 a {}
+main h1 a img {}
+main .law {
+    background-color: #fff;
+    overflow-y: auto;
+    width: 600px; height: 200px;
+    float:left;
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 0.75rem;
+}
+main .law h2 {padding: 10px 0 50px;}
+main .law h3 {padding-bottom: 10px;}
+main .law p { padding-bottom: 20px;}
+main #join_frm {width: 600px;}
+main #join_frm .user_info {}
+main #join_frm .user_info dl {}
+main #join_frm .user_info dl dt {}
+main #join_frm .user_info dl dt span {color: red;}
+main #join_frm .user_info dl dd {}
+main #join_frm .user_info dl dd #button_check {}
+main #join_frm .user_info dl dd #duplication {}
+main #join_frm .user_info dl dd [name*=new]{background-color: aqua;}
+main #join_frm .user_info dl dd #get_number {}
+main #join_frm .user_info dl dd #address_searchr {}
+main #join_frm .user_info dl dd .stay {}
+main #join_frm .user_info dl dd .day {}
+main #join_frm .user_info dl dd .btn {}
+main #join_frm .user_info dl dd .btn #sign_up {}
+*/
+/* 실습 */
+main {
+    font-family: "Noto Sans KR", sans-serif;
+    width: 1024px;
+    background-color: #F5F5F5;
+    border: 1px solid #000;
+    margin: 0 auto;
+    text-align: center;
+}
+main h1 {
+    text-align: center;
+    margin: 41px auto;
+}
+main h1 a {}
+main h1 a img {}
+/* 회원가입 약관 */
+main .law {
+    width: 612px; height: 200px; margin: 0 auto;
+    overflow-y: scroll;
+    background-color: #fff;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+main .law h2 {
+    padding: 10px 0 50px 0;
+    
+}
+main .law h3 {line-height: 20px;}
+main .law p {
+    line-height: 20px;
+    padding-bottom: 45px;
+}
+/* 회원가입 양식 */
+main #join_frm {width: 612px; margin: 0 auto; background-color: /* lightblue */;}
+main #join_frm .user_info {}
+main #join_frm .user_info dl {}
+main #join_frm .user_info dl dt {
+    width: 156px; float:left; 
+    /* background-color: pink; */
+    padding: 10px 0 10px 0;
+} /* 제목 공통 */
+main #join_frm .user_info dl dt span {color: red;} /* 필수표시 */
+main #join_frm .user_info dl dd {
+    width: 300px; float:left; height: 40px;
+    /* background-color: lightgreen; */
+    margin-bottom: 10px;
+} /* 내용 공통 */
+main #join_frm .user_info dl dd:nth-child(3n) {
+    width: 156px; float:right; background-color: /* cornflowerblue; */
+    text-align: right;
+} /* 내용(버튼위치, 빈) 공통 */
+/* 아이디, 비밀번호, 확인, 이름, 이메일, 휴대폰 입력 input 공통 선택자 */
+main #join_frm .user_info dl dd input[name^=user] {
+    /* background-color: aqua;  */ 
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+/* 중복확인(아이디, 이메일), 인증번호 받기 공통 선택자 */
+main #join_frm .user_info dl dd button[id$=btn] {
+    background-color: #9E00B7;
+    color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    width: 120px;
+    padding: 10px 0;
+    float: right;
+}
+/* 휴대폰 */
+main #join_frm .user_info dl dd select[name=agency] {
+    appearance: none; /* select의 기본 화살표 숨기기 */
+    background-image:url(../images/arrow_drop_down.png);
+    width: 50px; height: 40px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    background-position: right;
+    /* background-position:x축값 y축값; (왼쪽상단 기준) */
+    /* background-position:10px 20px; */
+    /* background-position:right: bottom; */
+}
+main #join_frm .user_info dl dd input[name*=pho] {
+    width: 245px;
+}
+main #join_frm .user_info dl dd select[name=agency] option {
+    
+}
+main #join_frm .user_info dl dd #authentication_btn {background-color: #ccc;} /* 인증번호 받기(색상) */
+/* 주소 */
+main #join_frm .user_info dl dd:nth-last-of-type(6),
+main #join_frm .user_info dl dt:nth-last-of-type(3), 
+main #join_frm .user_info dl dd:nth-last-of-type(5) {
+/*     background-color: #9E00B7; */
+    height: 60px;
+}
+main #join_frm .user_info dl dt:nth-last-of-type(3) {padding-top: 22px; padding-bottom: 22px;}
+main #join_frm .user_info dl dd #btn_address_search {
+    width: 300px;  height: 40px;
+    border: 1px solid #9E00B7;
+    border-radius: 5px;
+    background-color: #fff;
+    font-weight: 700;
+}
+main #join_frm .user_info dl dd #btn_address_search + span {
+    font-size: 0.875rem; color: #AAAAAA;
+    letter-spacing: -0.2px;
+}
+/* 성별 */
+main #join_frm .user_info dl dd input[name=gender] {
+    display: none;
+    text-align: center;
+} /* 공통 */
+main #join_frm .user_info dl dd input[name=gender]:checked + label {
+    background-image:url(../images/gender_checked.png);
+    /* padding-left: 30px; */ 
+    display: inline-block;
+    margin-top: 10px;
+} /* 선택공통 */
+main #join_frm .user_info dl dd input[name=gender] + label {
+    background-image:url(../images/gender_unchecked.svg); 
+    background-repeat: no-repeat;
+    padding-left: 21px;
+    display: inline-block;
+    /* padding-right: 30px; */
+    margin-left: 21px;
+    
+} /* 공통 */
+/* 생년월일 */
+/* 생년월일 dd만 별도 선택자 추가 */
+main #join_frm .user_info dl dt:last-of-type + dd {
+    background-color: #fff;
+    border: 1px solid #9E00B7;
+    border-radius: 5px;
+    text-align: center;
+}
+main #join_frm .user_info dl dd input[name^=birthday] {
+    border: none;
+    font-size: 0.875rem; 
+    width: 35px;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+main #join_frm .user_info dl dd input[name^=birthday] + span {
+    font-size: 0.875rem; padding: 1;
+    width: 30px;
+    padding-left: 15px; padding-right: 15px;
+}
+/* 최종버튼 */
+main #join_frm .user_info .result {text-align: center;}
+main #join_frm .user_info .result #join_btn {
+    background-color: #9E00B7;
+    width: 200px; 
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-bottom: 25px; margin-top: 25px;
+}
+/* Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
