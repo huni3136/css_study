@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-0426</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        .container {
+            background-color: lightgreen; /* padding: 20px; */
+            height: 500px; width: 500px;
+            /* flex 공부(부모-정렬대상의 부모) */
+            display: flex;
+            flex-flow: row wrap;
+            justify-content:center;
+            align-items: center;
+            /* flex-wrap: wrap-reverse; */ /* wrap, nowrap 상황에 따라 사용 */
+            /* flex-direction:부모속성,아이템정렬방향(메인축) */
+            /* flex-direction:column; */
+        }
+        .container .item {
+            /* flex 공부(자식-정렬대상) */
+            flex:1; 
+            /* 공통디자인 */
+           /*  width: 100px;  */
+            height: 100px; line-height: 100px;
+            text-align: center; font-size: 2rem;
+        }
+        .container .a {
+            order: 3;
+            background-color: red;
+            align-items: center;
+            flex: 4;
+        }
+        .container .b {
+            order: 2;
+            background-color: yellow;
+            align-self: flex-start;         
+        }
+        .container .c {
+            order: 1;
+            background-color: blue;
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item a">
+            <div>
+                <p>a-1</p>
+                <p>a-2</p>
+            </div>
+        </div>
+        <div class="item b">B</div>
+        <div class="item c">C</div>
+        <div class="item c">C</div>
+        <div class="item b">B</div>
+        <div class="item b">B</div>
+        <div class="item b">B</div>
+
+    </div>
+</body>
+</html> 

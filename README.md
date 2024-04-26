@@ -106,3 +106,48 @@
 * radio 등의 사용자의 입력이 아닌 선택으로 들어가는 선택양식
 * `name` : 입력양식(데이터 구분용), 선택양식(데이터구분 (개별데이터X, 그룹데이터구분용))
 * `value : 입력양식(초기값), 선택양식(개별데이터구분용)
+### background이미지
+* background-repeat: no-repeat; - 이미지 반복 없애기
+### select 
+* 예) <select name="email"> <option value="naver.com">naver.com</option>
+## CSS Layout
+### float, flex
+* `float` : 형제 관계에 해당하는 block or inline tag 왼쪽, 오른쪽 정렬할 때 사용
+* 예 : ul-li*3ro 정렬 `ul li {float:left;}`
+* `flex` : 정렬하고자 하는 아이템의 부모한테 flex를 먼저 설정한다.
+* 예 : ul-li*3개 정렬 `ul {display;flex;}`
+* flex 설정 시 **기본갑** : 메인축(수평) 교차축(수직)
+* `display:flex` : 정렬대상의 부모 설정 속성값, 설정 시 해당 부모 기준 자식까지(자손X) flexible box layout으로 처리하겠다!
+
+### flex
+* `flex-direction`  : 아이템 정렬 방향, 컨테이너안의 메인축
+* `row` : 왼쪽-> 오른쪽 (기본값)
+* `column` : 위 -> (아래 수직축 변경) 
+* `flex-wrap` : 컨테이너 내부 아이템 줄바꿈 처리 설정
+* `wrap` : 자동 줄바꿈
+* `wrap-reverse` : 역방향으로 자동 줄바꿈 
+* `nowrap` : 줄바꿈 x 
+* `flex-flow` : 컨테이너 안의 flex-direction과 flex-wrap을 묶음으로 처리
+* `flex-direction:column + flex-wrap:nowrap 일 경우 -> flex-flow:column nowrap 이라고 작성 가능`
+* `justify-content ` : 메인축의 정렬 방법 설정
+* `flex-start` : 시작점으로 정렬
+* `flex-end` : 끝점으로 정렬
+* `center` : 가운데 정렬
+* `space-between` : items을 container의 start, end 양끝 items을 배치하고 나머지는 고르게 정렬
+* `space-around` :items을 container안에서 균등한 여백을 포함하여 정렬
+* `align-content ` :container에 적용 교차축의 아이템이 2줄 이상일 경우 정렬방법, * flex-wrap:wrap 적용한 상태로 확인하세요.
+* `stretch` :기본값(교차축 기준 아이템 늘리기)
+* `flex-start` : container의 start지점 기준 item 정렬
+* `flex-end` : container의 end 지점 기준 item 정렬
+* `center` : container의 가운데 위치 기준 item 정렬
+* `space-between` : container의 start, end 에 양쪽 끝 맞추고 나머지 item 균등하게 정렬
+* `space-around` : container에서 모든 item 균등하게 정렬
+* `align-self` : item에 적용하는 속성 flex box의 교차축을 정렬
+* `flex-start` : 교차축 기준 container의 start 시작 위치(top or left)
+* `flex-end` : container의 end 종료 위치(bottom or right)
+* `align-self:center` : align-self:center
+* `order` : item에 적용하는 속성, 정렬 순서 설정
+* ` order:-1` : 가장 작은 수로 첫번째 정렬
+* ` order:0` : 가장 작은 수로 두번째 정렬
+* ` order:1` : 가장 작은 수로 세번째 정렬
+
