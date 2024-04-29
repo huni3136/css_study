@@ -31,60 +31,60 @@
                 <dl>
                     <dt>아이디<span>*</span></dt>
                     <dd><input type="text" name="user_id" placeholder="아이디를 입력해주세요"></dd>
-                    <dd><button type="button" id="button_check">중복확인</button></dd>
+                    <dd><button type="button" id="overlap_id_btn">중복확인</button></dd>
                     <dt>비밀번호<span>*</span></dt>
-                    <dd><input type="password" name="user_pwd" placeholder="비밀번호를 입력해주세요"></dd>
-                    <dd></dd>
+                    <dd><input type="password" name="user_pw" placeholder="비밀번호를 입력해주세요"></dd>
+                    <dd><!--  --></dd>
                     <dt>비밀번호확인<span>*</span></dt>
-                    <dd><input type="password" name="pwd_check" placeholder="비밀번호를 한번 더 입력해주세요"></dd>
-                    <dd></dd>
+                    <dd><input type="password" name="user_pw_re" placeholder="비밀번호를 한번 더 입력해주세요"></dd>
+                    <dd><!--  --></dd>
                     <dt>이름<span>*</span></dt>
                     <dd><input type="text" name="user_name" placeholder="이름을 입력해주세요"></dd>
-                    <dd></dd>
+                    <dd><!--  --></dd>
                     <dt>이메일<span>*</span></dt>
-                    <dd><input type="email" name="user_email" placeholder="예)abc@web.com"></dd>
-                    <dd><button type="button" id="duplication">중복확인</button></dd>
+                    <dd><input type="mail" name="user_mail" placeholder="예)abc@web.com"></dd>
+                    <dd><button type="button" id="overlap_mail_btn">중복확인</button></dd>
                     <dt>휴대폰<span>*</span></dt>
                     <dd>
-                        <select name="news_agency">
+                        <select name="agency">
                             <option value="kt">KT</option>
                             <option value="lg">LG</option>
                             <option value="skt">SKT</option>
-                            <option value="kt_budget">KT알뜰폰</option>
-                            <option value="lg_budget">LG알뜰폰</option>
-                            <option value="skt_budget">SKT알뜰폰</option>
+                            <option value="kt_thrifty">KT알뜰폰</option>
+                            <option value="lg_thrifty">LG알뜰폰</option>
+                            <option value="skt_thrifty">SKT알뜰폰</option>
                         </select>
-                        <input type="number" name="num" placeholder="숫자만 입력해주세요 예)01012345678">
+                        <input type="number" name="user_phone" placeholder="숫자만 입력해주세요 예)01012345678">
                     </dd>
-                    <dd><button type="button" id="get_number">인증번호받기</button></dd>
+                    <dd><button type="button" id="authentication_btn">인증번호받기</button></dd>
                     <dt>주소<span>*</span></dt>
                     <dd>
-                        <button type="button" id="address_search">주소검색</button>
+                        <button type="button" id="btn_address_search">주소검색</button>
                         <span>배송지에 따라 상품 정보가 달라질 수 있습니다.</span>
                     </dd>
-                    <dd></dd>
+                    <dd><!--  --></dd>
                     <dt>성별</dt>
-                    <p class="stay">
-                        <input type="radio" name="gender" value="man" id="man">
-                        <label for="man">남자</label>
-                        <input type="radio" name="gender" value="woman" id="woman">
-                        <label for="woman">여자</label>
-                        <input type="radio" name="gender" value="not_selected" id="not_selected">
-                        <label for="not_selected">선택안함</label>
-                    </p>
-                    <dd></dd>
+                    <dd>
+                        <input type="radio" name="gender" value="male" id="male">
+                        <label for="male">남자</label>
+                        <input type="radio" name="gender" value="female" id="female">
+                        <label for="female">여자</label>
+                        <input type="radio" name="gender" value="none" id="none">
+                        <label for="none">선택안함</label>
+                    </dd>
+                    <dd><!--  --></dd>
                     <dt>생년월일</dt>
-                    <dd class="day">
-                        <input type="number" name="birth_date" placeholder="yyyy">
+                    <dd>
+                        <input type="number" name="birthday_year" placeholder="yyyy" maxlength="4">
                         <span>/</span>
-                        <input type="numberk" name="birth_date" placeholder="mm">
+                        <input type="number" name="birthday_month" placeholder="mm" maxlength="2">
                         <span>/</span>
-                        <input type="number" name="birth_date" placeholder="dd">
+                        <input type="number" name="birthday_day" placeholder="dd" maxlength="2">
                     </dd>
                     <dd></dd>
                 </dl>
-                <div class="btn">
-                    <button type="submit" id="sign_up">가입하기</button>
+                <div class="result">
+                    <button type="submit" id="join_btn">가입하기</button>
                 </div>
             </fieldset>
         </form>

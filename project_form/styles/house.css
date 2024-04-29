@@ -1,0 +1,166 @@
+main {
+    width: 360px;
+    text-align: left;
+    margin: 0 auto;
+    font-family: "Noto Sans KR ",sans-serif;
+}
+main h1 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    letter-spacing: -0.2px;
+}
+main h2 {
+    font-size: 0.75rem; color: #EAEDEF;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* 로고 */
+main .join { }
+main .join .sns {
+    display: flex;
+    -webkit-justify-content: center;
+    margin-bottom: 50px;
+}
+main .join .sns li {}
+main .join .sns li a {}
+main .join .sns li a img {
+    width: 48px; line-height: 48;
+    margin: 0 auto;
+    padding: 5px;  
+}
+/* 이메일 */
+main #join_frm {
+    border-top: 1px solid #EAEDEF;
+}
+main #join_frm .user_join {}
+main #join_frm .user_join dl {}
+main #join_frm .user_join dl dt { 
+    font-weight: 700; margin-top: 35px;
+    text-align: left; margin-bottom: 15px;
+}
+main #join_frm .user_join dl dd {
+    text-align: left;
+    
+}
+main #join_frm .user_join dl dd input[name=email_id] {width: 47%; padding: 10px; border-radius: 5px; border: 1px solid #aaa; }
+main #join_frm .user_join dl dd input[name=email_id] + span {padding-left: 4px;
+}
+main #join_frm .user_join dl dd select[name=email] {width: 47%; padding: 10px; border-radius: 5px; border: 1px solid #aaa;}
+main #join_frm .user_join dl dd #email_btn {
+    background-color: #fff; width: 360px; padding: 14px; margin-top: 10px;
+    border: 1px solid #EAEDEF; border-radius: 5px;
+}
+main #join_frm .user_join dl dd span {
+    font-size: 0.75rem;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: #828C94;
+    
+
+}
+main #join_frm .user_join dl dd input[name^=user] { 
+    padding: 10px; border-radius: 5px; 
+    width:100%; padding: 10px; 
+    border: 1px solid #EAEDEF;
+    margin-top: 10px;
+} 
+/* 약관동의 */
+main h3 {margin-top: 20px; margin-bottom: 20px; font-weight: 700;}    
+main #agree_to {}
+main #agree_to .agree_to_terms {
+    border: 1px solid #EAEDEF;
+    padding: 15px;
+}
+/* 전체동의 */
+main #agree_to .agree_to_terms .agree_totally {
+    border-bottom: 1px solid #828C94;
+    padding-bottom: 15px;
+    font-size: 0.875rem;
+}
+main #agree_to .agree_to_terms .agree_totally .ato {}
+main #agree_to .agree_to_terms .agree_totally .ato li {display: -webkit-inline-flex;}
+main #agree_to .agree_to_terms .agree_totally .ato li input[name^=agree ],
+main #agree_to .agree_to_terms .detail .user_agree li input[name^=pri],
+main #agree_to .agree_to_terms .detail .user_information li input[name^=pri],
+main #agree_to .agree_to_terms .detail .user_consent li input[name^=pri],
+main #agree_to .agree_to_terms .detail .user_marketing li input[name^=pri],
+main #agree_to .agree_to_terms .detail .user_reception li input[name^=pri]  {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-color: #DADDE0;
+}
+main #agree_to .agree_to_terms .agree_totally .ato li input[name^=agree] + label {font-weight: 700; }
+main #agree_to .agree_to_terms .agree_totally .ato li input[name^=agree] + label span {color: black; font-size: 0.75rem; line-height: 25px;}
+/* 만 14세 이상입니다. */
+main #agree_to .agree_to_terms .detail {}
+main #agree_to .agree_to_terms .detail .user_agree {padding: 15px 0 10px 0; }
+main #agree_to .agree_to_terms .detail .user_agree li {display: -webkit-inline-flex;}
+main #agree_to .agree_to_terms .detail .user_agree li input[name^=pri] {}
+main #agree_to .agree_to_terms .detail .user_agree li input[name^=pri] + label {font-size: 0.875rem; line-height: 25px;  }
+main #agree_to .agree_to_terms .detail .user_agree li input[name^=pri] + label span {font-size: 0.75rem; color: blue; }
+    
+/* 이용약관 */
+main #agree_to .agree_to_terms .detail {}
+main #agree_to .agree_to_terms .detail .user_information {padding: 15px 0 10px 0; }
+main #agree_to .agree_to_terms .detail .user_information li {display: -webkit-inline-flex; }
+main #agree_to .agree_to_terms .detail .user_information li input[name^=pri] {}
+main #agree_to .agree_to_terms .detail .user_information li input[name^=pri] + label {font-size: 0.875rem; line-height: 25px; }
+main #agree_to .agree_to_terms .detail .user_information li input[name^=pri] + label span {color: blue; font-size: 0.75rem;  }
+main #agree_to .agree_to_terms .detail .user_information li .first {} 
+main #agree_to .agree_to_terms .detail .user_information li .first img { 
+    margin-left: 182px; width: 17px;
+} 
+/* 이용동의 */
+main #agree_to .agree_to_terms .detail {}
+main #agree_to .agree_to_terms .detail .user_consent {padding: 15px 0 10px 0;}
+main #agree_to .agree_to_terms .detail .user_consent li {display: -webkit-inline-flex;}
+main #agree_to .agree_to_terms .detail .user_consent li input[name^=pri] {}
+main #agree_to .agree_to_terms .detail .user_consent li input[name^=pri] + label {font-size: 0.875rem; line-height: 25px;}
+main #agree_to .agree_to_terms .detail .user_consent li input[name^=pri] + label span {color: blue; font-size: 0.75rem;}
+main #agree_to .agree_to_terms .detail .user_consent li .second {}
+main #agree_to .agree_to_terms .detail .user_consent li .second img {margin-left: 74px; width: 17px;}
+/* 활용동의 */
+main #agree_to .agree_to_terms .detail {}
+main #agree_to .agree_to_terms .detail .user_marketing {padding: 15px 0 10px 0;}
+main #agree_to .agree_to_terms .detail .user_marketing li {display: -webkit-inline-flex;}
+main #agree_to .agree_to_terms .detail .user_marketing li input[name^=pri] {}
+main #agree_to .agree_to_terms .detail .user_marketing li input[name^=pri] + label {font-size: 0.875rem; line-height: 25px;}
+main #agree_to .agree_to_terms .detail .user_marketing li input[name^=pri] + label span {font-size: 0.75rem; }
+main #agree_to .agree_to_terms .detail .user_marketing li .third {}
+main #agree_to .agree_to_terms .detail .user_marketing li .third img {margin-left: 69px; width: 17px;}
+/* 이벤트 쿠폰 특가 알림 */
+main #agree_to .agree_to_terms .detail {}
+main #agree_to .agree_to_terms .detail .user_reception {padding: 15px 0 10px 0;}
+main #agree_to .agree_to_terms .detail .user_reception li {display: -webkit-inline-flex;}
+main #agree_to .agree_to_terms .detail .user_reception li input[name^=pri] {}
+main #agree_to .agree_to_terms .detail .user_reception li input[name^=pri] + label {
+    letter-spacing: -0.3px; line-height: 20px;
+    font-size: 0.875rem;
+}
+main #agree_to .agree_to_terms .detail .user_reception li input[name^=pri] + label span {font-size: 0.75rem; }
+
+/* 버튼 */
+main #join_membership {
+    padding: 10px; width: 100%;
+    background-color: #35C5F0;
+    color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin: 30px 0;
+} 
+main p {
+    text-align: center;
+    font-size: 0.75rem;
+    margin-bottom: 50px;
+}
+main p a {
+    font-weight: 700; text-decoration: underline;
+    margin-left: 5px;
+}
