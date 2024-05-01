@@ -1,0 +1,107 @@
+#app {
+    width: 375px; height: 812px;
+    border: 1px solid black;
+    margin: 30px auto 0;
+    padding-top: 42px;
+    /* nav 하단 고정 필요 속성 */
+    position: relative;
+}
+/* ---header-- */
+#app header {
+    padding: 16px; display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+#app header h1 {
+    font-size: 1.25rem;
+}
+#app header .right {}
+#app header .right a {
+    width: 24px; height: 24px;
+    display:inline-block ;
+    background-color: gray; margin-right: 16px;
+}
+#app header .right a:last-child {margin: 0;}
+/* ----main----- */
+#app main {}
+#app main .adver1 {
+    height: 85px; background-color: gray;
+    margin: 0 0 20px;
+}
+#app main > h2 {margin: 0 16px 12px;}
+#app main > h2 a {}
+#app main > h2 a em {font-weight: 700;}
+#app main > .category {
+    margin: 0 16px 25px; border: 1px solid black;
+    display: flex;  flex-flow: row wrap;
+    padding: 10px 0 ;
+    
+}
+#app main > .category a {
+    border: 1px solid gray;
+    width: calc(100% / 4);
+    display: flex; flex-flow: column wrap;
+    align-items: center; 
+    margin: 0 0 24px;
+}
+#app main > .category a:nth-child(5),
+#app main > .category a:nth-child(6),
+#app main > .category a:nth-child(7),
+#app main > .category a:nth-child(8) {margin: 0;}
+#app main > .category a img {
+    width: 42px; height: 42px;
+    border: 1px solid black;
+    margin: 0 0 5px;     
+    
+}
+#app main > .category a span {
+    font-size: 0.75rem;
+}
+#app main .notice {
+    padding: 16px; border: 1px solid black;
+    display: flex;
+    align-items: center; margin: 0 0 20px;
+}
+#app main .notice img {width: 24px; height: 24px; border: 1px solid gray; margin-right: 15px;}
+#app main .notice a {font-size: 0.75rem;}
+#app main .adver2 {
+    height: 85px; background-color: gray;
+    margin: 0 0 20px;
+}
+#app main .service_wrap {}
+#app main .service_wrap .top {
+    padding: 10px 16px; border: 1px solid black;
+    display: flex; justify-content: space-between;
+    margin: 0 0 14px;
+}
+#app main .service_wrap .top h2 {}
+#app main .service_wrap .top .search {display: flex; align-items: center;}
+#app main .service_wrap .top .search img {
+    width: 16px; height: 16px; border: 1px solid gray;
+    margin-right: 10px;
+}
+#app main .service_wrap .top .search span {
+    font-size: 0.75rem;
+}
+#app main .service_wrap h3 {
+    border: 1px solid black;
+    padding: 10px 16px; font-size: 0.75rem;
+    margin: 0 0 20px;
+}
+#app main .service_wrap .news_category {
+    border: 1px solid black;
+    margin: 0 16px;
+    display: flex; flex-flow: row wrap;
+    
+}
+#app main .service_wrap .news_category a {
+    border: 1px solid gray;
+    width: calc(100% / 2);
+    display: flex; align-items: center;
+    margin: 0 0 16px;
+}
+#app main .service_wrap .news_category a img {
+    width: 24px; height: 24px; background-color: gray;
+    margin-right: 6px; 
+}
+#app main .service_wrap .news_category a img span {font-size: 0.875rem;}
