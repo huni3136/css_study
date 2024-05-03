@@ -118,7 +118,6 @@
 * 예 : ul-li*3개 정렬 `ul {display;flex;}`
 * flex 설정 시 **기본갑** : 메인축(수평) 교차축(수직)
 * `display:flex` : 정렬대상의 부모 설정 속성값, 설정 시 해당 부모 기준 자식까지(자손X) flexible box layout으로 처리하겠다!
-
 ### flex
 * `flex-direction`  : 아이템 정렬 방향, 컨테이너안의 메인축
 * `row` : 왼쪽-> 오른쪽 (기본값)
@@ -150,4 +149,18 @@
 * ` order:-1` : 가장 작은 수로 첫번째 정렬
 * ` order:0` : 가장 작은 수로 두번째 정렬
 * ` order:1` : 가장 작은 수로 세번째 정렬
-
+* `input, button label {cursor: pointer;}` : 버튼 클릭시 모양 변경
+## font-awesome
+* `font-awesome 전용속성값`
+* .fa {
+    font-weight: 600;
+    font-family: 
+    'Font Awesome 5 Free',
+    'Font Awesome 5 Brands',
+    'Font Awesome 5 Solid';}
+## z-index
+* absolute 이용해서 요소 배치시 중첩위치가 생기면 태그 작성 순서에 따라 기본 배치가 결정된다 
+* z-index 수동으로 설정하는 중첩순서 속성, 단위사용안함, 0~999 
+* 사이트 접속 시 함께 실행되는 기간성 이벤트 및 주요 공지사항은 z-index가 999으로 최대값으로 사용된다. 
+* z-index속성은 position의 추가속성이기 때문에 position속성 없이 사용할 수 없다. 
+* `sticky` : 달라붙다
