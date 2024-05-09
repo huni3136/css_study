@@ -1,0 +1,33 @@
+/* 기존 CSS에서 변경되는 사항만 작성한다 */
+/* media 조건 시작값 max 기준 사이트너비값 주로 이용 */
+@media screen and (max-width:1300px) {
+    header nav {display: none;}
+    main .visual video {width: 1300px;}
+    main .creater  {width: 100%;}
+    main .world section {width: 100%;}
+    main .million {width: 100%;} 
+    main .million .content img {width: calc((100% / 4) - 17px);}
+    main .million .content img:nth-last-child(1) {display: none;}
+}/* 761~1300 */
+@media screen and (max-width:760px) {
+    header h1 {width: 225.75px;}
+    main .creater .img {width: 100%;}
+    main .creater .box {flex-flow:row wrap;}
+    main .creater .box dl {width: calc(100% / 2); }
+    main .creater .box dl:last-child {width: 100%; }
+    main .world section .box {flex-flow:column;}
+    main .world section .box dl {
+        width: 100%; height: 150px; padding-top: 0;
+        flex-flow: row nowrap;
+        display: flex; padding: 0 50px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between
+    }
+    main .world section .box dl:nth-child(2) {margin: 10px 0;}
+    main .world section  .box dl dd:nth-child(2) {margin: 0;}
+    main .million h2 {font-size: 2.188rem;}
+    main .million p {font-size: 1.0rem;}
+    main .million .content img {width: calc((100% / 3) - 17px);}
+    main .million .content img:nth-last-child(2) {display: none;}
+}/* ~760 */
