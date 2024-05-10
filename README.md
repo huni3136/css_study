@@ -164,3 +164,5 @@
 * 사이트 접속 시 함께 실행되는 기간성 이벤트 및 주요 공지사항은 z-index가 999으로 최대값으로 사용된다. 
 * z-index속성은 position의 추가속성이기 때문에 position속성 없이 사용할 수 없다. 
 * `sticky` : 달라붙다
+## animaiton
+* background-attachment: fixed; : 배경 이미지 고정 
