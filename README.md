@@ -166,3 +166,8 @@
 * `sticky` : 달라붙다
 ## animaiton
 * background-attachment: fixed; : 배경 이미지 고정 
+## transform
+* transform: scaleX(-1) : 좌우반전
+* transition : scale : 자식 자손 같이 늘림
+* width: 요소만 늘림
+* linear: 일정하게 
